@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">OTP Verification Using Firebase</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="we_will_send_you_an_otp_on_this_mobile_number">We will send you an OTP on this mobile number</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="_91">+91-</string>
+    <string name="_1234567890">1234567890</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="enter_the_otp_sent_to">Enter the OTP sent to</string>
+    <string name="did_nt_receive_the_otp">Did\'nt receive the OTP?</string>
+    <string name="resend_otp">RESEND OTP</string>
+    <string name="verify">Verify</string>
+</resources>
