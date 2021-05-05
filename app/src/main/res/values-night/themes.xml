@@ -1,6 +1,6 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
-    <style name="Theme.OTPVerificationUsingFirebase" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Theme.OTPVerificationUsingFirebase" parent="Theme.AppCompat.NoActionBar">
         <!-- Primary brand color. -->
         <!--<item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>

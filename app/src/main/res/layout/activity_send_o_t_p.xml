@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:overScrollMode="never"
     android:scrollbars="none"
     tools:context=".SendOTPActivity">
@@ -18,14 +19,14 @@
             android:layout_height="200dp"
             android:layout_marginTop="50dp"
             android:contentDescription="@string/app_name"
-            android:src="@drawable/send"/>
+            app:srcCompat="@drawable/firebase"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
             android:text="@string/otp_verification"
-            android:textColor="@color/colorTextPrimary"
+            android:textColor="@color/colorWhite"
             android:textSize="22sp"
             android:textStyle="bold"/>
 
@@ -65,7 +66,7 @@
                 android:layout_height="40dp"
                 android:gravity="center"
                 android:text="@string/_91"
-                android:textColor="@color/colorTextPrimary"
+                android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:textStyle="bold"/>
 
@@ -78,7 +79,7 @@
                 android:imeOptions="actionDone"
                 android:importantForAutofill="no"
                 android:inputType="number"
-                android:textColor="@color/colorTextPrimary"
+                android:textColor="@color/colorWhite"
                 android:textSize="20sp"
                 android:textStyle="bold"/>
 
@@ -98,6 +99,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="30dp"
             android:background="@drawable/background_button"
+            android:shadowColor="@color/colorShadow"
             android:text="@string/get_otp"
             android:textColor="@color/colorWhite"
             android:textSize="18sp"
