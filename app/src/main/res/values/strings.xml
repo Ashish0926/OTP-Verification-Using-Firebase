@@ -10,4 +10,6 @@
     <string name="did_nt_receive_the_otp">Did\'nt receive the OTP?</string>
     <string name="resend_otp">RESEND OTP</string>
     <string name="verify">Verify</string>
+    <string name="you_have_successfully_logged_in_using_firebase_authentication">You have Successfully Logged in using Firebase Authentication.</string>
+    <string name="congratulations">Congratulations !</string>
 </resources>
